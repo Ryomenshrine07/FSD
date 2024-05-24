@@ -1,0 +1,3 @@
+1)Box model consists of padding,boder and margin
+2)In inline tags margin properties does not work onntop and bottom but id does work on left and right,
+ and in inline tags padding work as usual but you cannot control its border size by box-sizing tag.

@@ -1,0 +1,64 @@
+*
+{
+    box-sizing: border-box;
+    background-color:cornsilk;
+    overflow: auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mainscreen
+{
+    width: 100vw;
+    height: 100vh;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color:cornsilk; */
+}
+#heading
+{
+    /* border: 2px solid black; */
+    font-size: 4rem;
+    margin: 4px;
+    color: violet;
+    
+}
+.form
+{
+    display: flex;
+    /* border: 2px solid black; */
+    width: fit-content;
+    background-color: white;
+}
+.Btn
+{
+    background-color: red;
+    border-radius: 10px;
+}
+@media(max-width:1024px)
+{
+    #heading
+    {
+        font-size: 100px;
+    }
+    .form
+    {
+        font-size: 30px;
+    }
+    .Btn
+    {
+        font-size: 30px;
+    }
+    #feedback
+    {
+        width: 750px;
+        font-size: 18pt;
+    }
+    .inputs
+    {
+        height: 34px;
+        width: 250px;
+        font-size: 18pt;
+    }
+}

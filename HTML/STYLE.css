@@ -1,0 +1,39 @@
+/* *{
+    margin: 10px;
+    padding: 10px; this makes your box have a edgy border
+    background-color: aqua;
+}
+
+p{
+    color: green;
+    background-color: yellowgreen;
+} 
+#D1{
+    color:white;
+    background:red;
+    border: 5px solid black;
+    height: 100px;
+    width: 200px;
+}
+.P1{
+    color:white;
+    background-color: purple;
+    border: 3px solid blue;
+    height: 100px;
+    width: 200px;
+} */
+h1{
+    font-family: 'Silkscreen', sans-serif;
+
+}
+p{
+    border: 2px solid black;
+    font-style: italic;
+    /* -webkit-text-fill-color: brown; */
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;/*this is fallback System*/
+    /* font-weight: 900; */
+    line-height: 50px;
+    word-spacing: 5px;
+
+}

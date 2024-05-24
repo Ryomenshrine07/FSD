@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *
+        {
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+        }
+        .container
+        {
+            height: 100vh;
+            width: 100vw;
+
+            display: grid;
+            grid-template-areas: "logo nav nav"
+                                 "side1 gallery side2"
+                                 "footer footer footer";
+        }
+        .image
+        {
+            background-color: black;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img id="image" src="zorologo.png" alt="">
+    </div>
+</body>
+</html>

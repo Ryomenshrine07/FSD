@@ -1,0 +1,228 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+}
+body
+{
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20230627/pngtree-3d-rendered-abstract-concept-wallpaper-in-4k-emptiness-illustrated-image_3684524.jpg);
+}
+.main-container
+{
+    border: 2px solid black;
+    height: 100vh;
+    width: 100vw;
+}
+.nave-bar
+{
+    /* border: 2px solid black; */
+    height: auto;
+    width: auto;
+    margin: 1px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo
+{
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 200px;
+    background-color: black;
+}
+.logo img
+{
+    height: 100px;
+    width: fit-content;
+}
+.nave-content
+{
+    margin: 1px;
+    /* border: 2px solid black; */
+    height: auto;
+    width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nave-last-icon
+{
+    margin: 1px;
+    /* border: 2px solid black; */
+    height: auto;
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: white;
+}
+.nave-content-in
+{
+    margin: 1px;
+    /* border: 2px solid black; */
+    height: fit-content;
+    font-size: 1.2em;
+    color: white;
+}
+.nave-content-in a
+{
+    text-decoration: none;
+}
+.disco-lean-enj
+{
+    /* border: 2px solid black; */
+    height: fit-content;
+    width: fit-content;
+    text-align: center;
+    position: relative;
+    top: 2%;
+    left: 25%;
+}
+.disco-lean-enj-big
+{
+    /* border: 2px solid black; */
+    margin: 1px;
+    font-size: 2em;
+    color: white;
+}
+.disco-lean-enj-search input
+{
+    width: 800px;
+    height: 80px;
+    font-size: 1.2em;
+    border-radius: 40px;
+}
+.disco-lean-enj-search-icon
+{
+    /* border: 2px solid black; */
+    height: fit-content;
+    width: fit-content;
+    position: relative;
+    bottom: 56px;
+    color: white;
+    left: 83%;
+    font-size:2em;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: rgb(84, 163, 228);
+}
+.web-degn-finance-container
+{
+    /* border: 2px solid black; */
+    height: auto;
+    width: auto;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.web-design-container
+{
+    /* border: 2px solid black; */
+    margin: 1px;
+    height: fit-content;
+    width: 350px;
+    border-radius: 10px;
+    background-color: white;
+}
+.finance-container
+{
+    border: 2px solid black;
+    margin: 1px;
+    height: 350px;
+    width: 450px;
+    border-radius: 10px;
+}
+.web-design-container-Content
+{
+    border: 2px solid black;
+    height: fit-content;
+    width: fit-content;
+}
+.web-design-container-image
+{
+    border: 2px solid black;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+}
+.web-design-container-image img
+{
+    border-radius: 1px;
+    height: 183px;
+    width: 344px;
+}
+.web-design-container-blue-right
+{
+    /* border: 2px solid black; */
+    height: 20px;
+    width: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(12, 96, 250);
+    position: relative;
+    left: 89%;
+    bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.finance-container
+{
+    background: url(https://c0.wallpaperflare.com/preview/697/898/445/cloud-computing-illustration-technology.jpg);
+}
+.learn-more
+{
+    /* border: 2px solid black; */
+    height: fit-content;
+    width: fit-content;
+    /* margin: 1px; */
+    margin-top: 25px;
+    margin-left: 20px;
+    font-size:1.4em;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgb(0, 217, 255);
+    padding-top: 5px;
+}
+.finance-container-share
+{
+    /* border: 2px solid black; */
+    height: auto;
+    width: auto;
+    margin-top: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.finance-container-shareand-icons
+{
+    margin: 1px;
+    /* border: 2px solid black; */
+    height: 40px;
+    width: fit-content;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+}
+.finance-container-shareand-icons i
+{
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: aqua;
+
+}
+.finance-container-save-icon
+{
+    margin: 1px;
+    /* border: 2px solid black; */
+    height: 40px;
+    width: fit-content;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+}

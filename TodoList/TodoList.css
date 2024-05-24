@@ -1,0 +1,53 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body
+{
+    background-color: black;
+}
+
+.todoContainer
+{
+    border: 2px solid #ccc;
+    height: fit-content;
+    width: fit-content;
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    border-radius: 8px;
+    background:linear-gradient(90deg,blue,purple);
+}
+.to-do-head
+{
+    height: auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+
+}
+#newTask
+{
+    width: 300px;
+}
+.to-do-List
+{
+    height: fit-content;
+    width: auto;
+}
+.dragging
+{
+    opacity: 0.5;
+}
+.hideDisplay
+{
+    display:none;
+}
+button
+{
+    border-radius: 5px;
+    margin-left: 5px;
+}

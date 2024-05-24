@@ -1,0 +1,28 @@
+.luck-machine {
+    width: 200px;
+    height: 150px;
+    background-color: #000;
+    overflow: hidden;
+    border: 2px solid white;
+    padding: 10px;
+  }
+  
+  .luck-machine span {
+    position: absolute;
+    top: 100%;
+    color: white;
+    font-size: 20px;
+  }
+  
+  @keyframes scrollingText {
+    0% 
+    { top: 110%; }  /* Elements start outside the container */
+    100% 
+    { top: -100%; } /* Elements scroll up and disappear */
+    100% + 0% 
+    { top: 110%; } /* Reset for continuous loop */
+  }
+  
+  .luck-machine span {
+    animation: scrollingText 5s linear infinite; /* Adjust duration (X) as needed */
+  }

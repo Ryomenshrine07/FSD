@@ -1,0 +1,36 @@
+body
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#success
+{
+    color: green;
+    display: none;
+}
+#error
+{
+    color: red;
+    display: none;
+}
+#regesterd-now
+{
+    display: none;
+}
+#gotToLogin
+{
+    display: none;
+}
+.sign-page
+{
+    display: none;
+}
+#regesterd-now
+{
+    color: green;
+}
+#not-registered
+{
+    color: red;
+}

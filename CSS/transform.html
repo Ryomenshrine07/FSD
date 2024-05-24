@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box
+        {
+            height: 200px;
+            width: 200px;
+            background-color: beige;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition-duration: 2s;
+            transition-timing-function: ease-in-out;
+        }
+        .container
+        {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100vw;
+            height: 100vh;
+        }
+        p{
+            font-size: 20px;
+        }
+        .box:hover{
+            /* transform: rotate(360deg); */
+            /* transform: scale(1.5); */
+            /* transform: rotate(-90deg); */
+            /* transform: skew(45deg); */
+            transform: translate(500px,200px);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <p>Welcome to fsd 6</p>
+        </div>
+    </div>
+</body>
+</html>

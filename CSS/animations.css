@@ -1,0 +1,112 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.container
+{
+    border: 10px solid black;
+    height: 100vh;
+    width: 100vw;
+}
+.box
+{
+    height: 100px;
+    width: 200px;
+    border-radius: 4px;
+    background-color: violet;
+    margin: 10px;
+    position: relative;
+    animation-name: rightmovement;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 3s; */
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    /* animation-fill-mode:backwards; animation ruk jati hai(animation ke start me kya karna hai and end me kya karna hai) */
+}
+.box2
+{
+    height: 100px;
+    width: 200px;
+    border-radius: 4px;
+    background-color: violet;
+    margin: 10px;
+    position: relative;
+    animation-name: leftmovement; 
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+    /* animation-fill-mode:backwards; */
+}
+.ball
+{
+    border: 2px solid black;
+    position: relative;
+    top: 30%;
+    border-radius: 40px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    animation-name: Ball;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+@keyframes Ball 
+{
+    0%
+    {
+        top: 1%;
+        left: 5%;
+    }
+    30%
+    {
+        top: 1%;
+        left: 90%;
+    }
+    60%
+    {
+        top: 50%;
+        left: 10%;
+    }
+    90%
+    {
+        top: 50%;
+        left: 90%;        
+    }
+    100%
+    {
+        top: 1%;
+        left: 5%;
+    }
+}
+@keyframes rightmovement 
+{
+  from
+  {
+    top: 0px;
+    left: 0px;
+  }
+  to
+  {
+    top: 0px;
+    left: 1200px;
+  }  
+}
+@keyframes leftmovement 
+{
+  from
+  {
+    top:400px;
+    left: 1200px;
+  }
+  to
+  {
+    top: 400px;
+    left: 0px;
+  }  
+}

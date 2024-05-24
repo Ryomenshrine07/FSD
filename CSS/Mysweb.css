@@ -1,0 +1,100 @@
+*
+{
+    /* background-color: bisque; */
+}
+
+.container
+{
+    border: 3px solid black;
+    display: flex;
+}
+.box
+{
+    border: 3px solid black;
+    margin: 50px;
+}   
+.leftbox
+{
+    border: 3px solid black;
+    background-color: black;
+    display: flex;
+    margin: 3px;
+    align-items: center;
+    overflow: hidden;
+}
+.rightbox
+{
+    border: 3px solid black;
+    display: flex;
+    /* width: 82%; */
+    margin: 3px;
+    align-items: center;
+    overflow: auto;
+}
+#top
+{
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38%;
+    margin: 3px;
+    font-size: 100px;
+    overflow: auto;
+    
+}
+.secondcontainer
+{
+    border: 3px solid black;
+    display: flex;
+    margin: 2px;
+}
+#scroll1
+{
+    border: 3px solid black;
+    height: 400px;
+    width: 200px;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+}
+.content
+{
+    border: 2px solid black;
+    align-content: center;
+}
+#gallery
+{
+    border: 3px solid black;
+    height: 400px;
+    width: 1000px;
+    margin: 2px;
+    overflow: auto;
+}
+#scroll2
+{
+    border: 3px solid black;
+    height: 400px;
+    width: 300px;
+    margin: 2px;
+    overflow: hidden;
+}
+#News
+{
+    border: 3px solid black;
+    margin: 2px;
+    height: 100px;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow:hidden;
+}
+#Newscontent
+{
+    border: 3px solid black;
+    margin: 2px;
+    height: 285px;
+    overflow: auto;
+}

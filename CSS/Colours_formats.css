@@ -1,0 +1,11 @@
+#P1{
+    
+    background-color: rgb(112, 154, 112);
+}
+#P2{
+    background-color: hsl(116, 99%, 73%,0.913); /* Heu ,saturation ,Lightning.  */
+    background-color: hsla(116, 99%, 73%,0.913); /* Heu ,saturation ,Lightning with opacity  */
+}
+#P3{
+    background-color:#bc0be876; /* Hexa colours */
+}

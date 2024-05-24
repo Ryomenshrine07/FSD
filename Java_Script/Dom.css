@@ -1,0 +1,33 @@
+.light
+{
+    background-color: white;
+    color: black;
+}
+.dark
+{
+    background-color: black;
+    color: white;
+}
+.boxLight
+{
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    color: black;
+}
+.boxDark
+{
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    border: 2px solid white;
+    color: white;
+}
+#section
+{
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+}

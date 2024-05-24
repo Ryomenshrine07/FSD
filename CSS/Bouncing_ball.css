@@ -1,0 +1,59 @@
+*
+{
+    box-sizing: border-box;
+}
+.container
+{
+    border: 4px solid black;
+    height: 725px;
+    width: 1520px;
+    position: relative;
+}
+.Ball
+{
+    position: absolute;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    top: 30%;
+    border-radius: 50%;
+    background-image: linear-gradient(to right, red, yellow, green);
+    margin: 2px;
+    animation-name: Bouncing;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    transition-duration: 2000ms;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+@keyframes Bouncing 
+{
+   0%
+   {
+     top: 0%;
+     left: 2%;
+   }
+   30%
+   {
+    top: 86%;
+    left: 20%;
+   }
+   60%
+   {
+    top: 0%;
+    left: 40%;
+   }
+   90%
+   {
+    top: 86%;
+    left: 60%;
+   }
+   100%
+   {
+    top: 0%;
+    left: 80%;
+    transform: rotate(2turn);
+   }
+}

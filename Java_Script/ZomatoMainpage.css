@@ -1,0 +1,128 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+.main-zomato-img-back
+{
+    border: 2px solid black;
+    width: auto;
+    height: 550px;
+    background: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
+}
+.zomato-head-discrip
+{
+    /* border: 2px solid black; */
+    width: fit-content;
+    height: fit-content;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.zomato-head-discrip b
+{
+    font-size: 6em;
+}
+.zomato-head-discrip p
+{
+    font-size: 2em;
+}
+nav
+{
+    /* border: 2px solid black; */
+    width: auto;
+    height: auto;
+    font-size: 1.5em;
+    color: white;
+}
+.nav-content-main
+{
+    /* border: 2px solid black; */
+    display: flex;
+    position: relative;
+    left: 60%;
+}
+.nav-content
+{
+    /* border: 2px solid black; */
+    height: fit-content;
+    width: fit-content;
+    margin: 8px;
+}
+.nav-content a
+{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+.po-lo-indian-main
+{
+    /* border: 2px solid black; */
+    height: fit-content;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.po-lo-indian-main-head
+{
+    /* border: 2px solid black; */
+    width: fit-content;
+    height: fit-content;
+    font-size: 2.6em;
+    display: flex;
+}
+.india-flag
+{
+    /* border: 2px solid black; */
+    height: fit-content;
+    width: fit-content;
+}
+.po-lo-indian-main-descrip
+{
+    /* border: 2px solid black; */
+    font-size: 1.5em;
+    color: rgb(105, 105, 105);
+    text-align: center;
+}
+.country-names
+{
+    /* border: 2px solid black; */
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    position: relative;
+    left: 20%;
+    margin-top: 15px;
+}
+.country-names-inbox
+{
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    font-size: 1.8em;
+    margin: 2px;
+    padding: 2rem 2.4rem;
+    border-radius: 0.8rem;
+    background: rgb(255, 255, 255);
+    border: 1px solid rgb(232, 232, 232);
+    margin-bottom: 1.5rem;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.country-names-inbox:hover
+{
+    box-shadow: 0px 2px 10px;
+    cursor: pointer;
+}

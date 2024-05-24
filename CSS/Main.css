@@ -1,0 +1,35 @@
+#Heading
+{
+    font-size: xx-large;
+    font-style: italic;
+    color:red;
+    padding-left: 38%;
+}
+
+#Anime
+{
+    height: 100px;
+}
+
+a{
+  font-size: xx-large;
+  color: greenyellow;
+  padding-bottom: 40%;  
+}
+p{
+    font-size: xx-large;
+    font-style: normal;
+    color:whitesmoke;
+}
+#page
+{
+    height: auto; 
+    width: 869px; 
+    border: 4px solid whitesmoke;
+}
+.gamepic
+{
+    height: 500px; 
+    width: 850px; 
+    border: 10px solid orchid;
+}

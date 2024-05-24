@@ -1,0 +1,68 @@
+/* You cannot move static content */
+.image{
+        
+    border: 2px solid red;
+    height: 5000px;
+    width: 5000px;
+    box-sizing: border-box;
+}
+.img1
+{
+    /* position: relative;/*this will let your image ,ove wrt window and will maintain its block(background) */
+    /*backgound becomes parent and image becomes child */
+    /* border: 5px solid blue; */ 
+}
+.img2{
+    /* position: fixed;/*yhis basically overlap each image with its respective neighbour */ 
+    /* border: 5px solid gray; */ 
+}
+.img3{
+    /* position: static; 
+    border: 5px solid yellow;  */
+}
+.img4{
+    /*position: relative;/*yhis basically overlap each image with its respective neighbour */ 
+    /* border: 5px solid green;
+    /* top: 100px; */
+    /* position: sticky; */ 
+}
+.ok{
+    height: 5000px;
+    width: 5000px;
+    border: 3px solid red;
+}
+.img1
+{
+     position: static;
+    border: 5px solid blue;
+    
+}
+.img2{
+    
+    position: relative;
+    border: 5px solid blue;
+    top: 30px;
+    
+    
+}
+.img3{
+     position: absolute; 
+    border: 5px solid yellow;
+    top: 26px;  
+}
+.img4{
+    /*position: relative;/*yhis basically overlap each image with its respective neighbour */ 
+     border: 5px solid green;
+    /* top: 100px; */
+    top: 30px;
+    
+     position: sticky;
+    /* top: 10px;
+     left: 100px; 
+    /* position: fixed;  */ /*fixed is use properties of absolute by default */
+}
+#name{
+    padding-left: 120px;
+}
+
+

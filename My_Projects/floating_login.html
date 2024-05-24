@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="floating_login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax&family=Rubik+Burned&family=Rubik+Maps&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <video muted autoplay loop src="Simple Abstract.mp4"></video>
+        <div class="box">
+            <div class="head">Login</div>
+            <div class="login">
+                <input type="email" name="" placeholder="Email">
+                <input type="password" name="" placeholder="Password">
+                <br>
+                <button id="btn">Login</button>
+            </div>
+        </div>
+    </div>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js"
+      integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      VanillaTilt.init(document.querySelector(".box"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+      });
+    </script>
+</body>
+</html>
