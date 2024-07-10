@@ -1,0 +1,23 @@
+#QuizBack
+{
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  height: fit-content;
+  width: fit-content;
+}
+#QuizBack img
+{
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+  transform: scaleX(1.01);
+  transform-origin: right; /*This will make sure that only the left side of image will stretch */
+}
+#Home
+{
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
+  border: 5px solid black;
+}

@@ -1,0 +1,18 @@
+{
+    "auto-rename-tag.activationOnLanguage": [
+
+        "*"
+    ],
+    "powermode.explosions.customExplosions": [
+
+
+    ],
+    "powermode.enabled": true,
+    "powermode.presets": "flames",
+    "powermode.explosions.backgroundMode": "mask",
+    "powermode.combo.threshold": 1,
+    "powermode.explosions.customCss": {
+
+    },
+    "powermode.explosions.explosionOrder": "random"
+}

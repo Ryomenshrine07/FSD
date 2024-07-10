@@ -73,7 +73,7 @@
 
 // const output = arr.reduce((acc,curr)=>{
 //     acc = acc + curr;
-//     return acc;
+//     return acc; // [This will return the output after all the elements have been reduced or visited.]
 // },0)
 
 // console.log(output);
@@ -106,6 +106,6 @@
 //         max = curr;
 //     }
 //     return max;
-// },0);
+// },0); // Here this zero is the initial value of max [this is how you assign it in reduce function]
 
 // console.log(maxValue);

@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.animated-border {
+    padding: 20px;
+    border: 5px solid;
+    border-image: linear-gradient(90deg, red, orange, yellow, green, blue, indigo, violet) 1;
+    animation: borderAnimation 1s alternate infinite;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes borderAnimation {
+    100% {
+        border-image-source: linear-gradient(-450deg, red, orange, yellow, green, blue, indigo, violet);
+    }
+}
+

@@ -1,8 +1,9 @@
-// // console.log(x);
-// // var x = 10;
+// 'use strict';
+// console.log(x);
+// var x = 10;
 
-// // console.log(y);
-// // let y = 12;
+// console.log(y);
+// let y = 12;
 
 
 // console.log(logger);
@@ -11,6 +12,24 @@
 // {
 //     console.log(`Namaste`);
 // }
+
+
+// function checkScope()
+// {
+//    x = 10;
+// }
+// checkScope();    
+// console.log(x);
+
+// function hehe()
+// {
+//     console.log(x);
+// }
+// hehe();
+
+
+// console.log(a);
+// var a = 10;
 
 // exp();
 // console.log(exp);
@@ -29,7 +48,7 @@
 // {
 //     console.log(Nmae);
 //     console.log(`Namaste`);
-// }
+// } 
 
 
 

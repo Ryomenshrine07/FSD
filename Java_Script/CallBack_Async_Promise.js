@@ -69,15 +69,12 @@
 //     },2000);
 // }
 
-// getData(1,()=>{
-//     console.log(`Getting data 2....`);
-//     getData(2,()=>{
-//         console.log(`Getting data 3....`);
-//         getData(3,()=>{
-//             console.log(`Getting data 4....`);
+// getData(1,()=>{console.log(`Getting data 2`);
+//        getData(2,()=>{console.log(`Getting data 3`);
+//         getData(3,()=>{console.log(`Getting data 4`);
 //             getData(4);
-//         });
-//     });
+//         })
+//        })
 // });
 
 //===================================================================================================
@@ -104,6 +101,17 @@
 //     })
 // }
 
+// let myPromise = new Promise((resolve,reject)=>{
+//     setTimeout(()=>{
+//         let status = false;
+//         if(status)
+//             resolve("Success");
+//         else
+//         reject("Failed");
+//     },2000);
+// });
+
+// myPromise.then((message)=>{console.log(message);}).catch((message)=>{console.log(message);});
 
 // let result = getData(1);
 

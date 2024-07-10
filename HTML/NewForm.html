@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Floating Label Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 50px;
+        }
+
+        .form-group {
+            position: relative;
+            margin-bottom: 2rem;
+        }
+
+        .form-group input {
+            width: 100%;
+            padding: 10px 10px 10px 0;
+            font-size: 1rem;
+            border: none;
+            border-bottom: 2px solid #ccc;
+            outline: none;
+        }
+
+        .form-group label {
+            position: absolute;
+            top: 10px;
+            left: 0;
+            font-size: 1rem;
+            color: #aaa;
+            pointer-events: none;
+            transition: all 0.2s ease-out;
+        }
+
+        .form-group input:focus + label,
+        .form-group input:not(:placeholder-shown) + label {
+            top: -20px;
+            font-size: 0.85rem;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="form-group">
+        <input type="text" id="name" placeholder=" " />
+        <label for="name">Name</label>
+    </div>
+
+    <div class="form-group">
+        <input type="email" id="email" placeholder=" " />
+        <label for="email">Email</label>
+    </div>
+</body>
+</html>

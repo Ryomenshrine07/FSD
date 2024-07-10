@@ -466,28 +466,28 @@ let car =
 // }
 
 
-let val1 = Number(prompt("Enter your number"));
-let attempt = 0;
-let input = "";
-do
-{
-    input = Number(prompt("Guess the number"));
-    attempt++;
-    if(input > val1)
-    {
-        alert("Your Guessed number is Greater than Actual number");
-    }
-    else if(input < val1)
-    {
-        alert("Your Guessed number is Lesser than Actual number");
-    }
-    else if(input === 0)
-    {
-        alert("Really Nigga");
-    }
-}while(val1!=input)
+// let val1 = Number(prompt("Enter your number"));
+// let attempt = 0;
+// let input = "";
+// do
+// {
+//     input = Number(prompt("Guess the number"));
+//     attempt++;
+//     if(input > val1)
+//     {
+//         alert("Your Guessed number is Greater than Actual number");
+//     }
+//     else if(input < val1)
+//     {
+//         alert("Your Guessed number is Lesser than Actual number");
+//     }
+//     else if(input === 0)
+//     {
+//         alert("Really Nigga");
+//     }
+// }while(val1!=input)
 
-console.log(`You took ${attempt} attemps`);
+// console.log(`You took ${attempt} attemps`);
 
 
 

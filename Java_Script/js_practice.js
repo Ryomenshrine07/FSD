@@ -102,7 +102,8 @@ let college2 = 'Oriental'; //String here also works with single quouts but it is
 
 //Use of Let and Const-->[Block level or Funtion level Declaration]
 // [var is Global level]
-// With let you can declare a variable once and change it's value throughout the program
+
+// with [let].... you can declare a variable once and change it's value throughout the program
 
 // var age = 50;
 // console.log("Age is "+age);
@@ -131,7 +132,7 @@ let college2 = 'Oriental'; //String here also works with single quouts but it is
 // console.log(5 ** 2);
 
 // const fistName = "Priyanka";
-// const lastName = "Upadhay";
+// const lastName = "Upadhyay";
 // console.log(fistName+" "+lastName);
 
 // [ Compound of assignment operators ] -->
